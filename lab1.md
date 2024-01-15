@@ -15,7 +15,7 @@ Lab Report 1:
    * ![Image](cat.png)
    * The working directory when the command was run is `/home`.
    * Using the `cat` command with no argument would not print out any contents as there isn't any contents of any files that are given by the path, path are the argument, hence there's nothing for `cat` to read and print out as output.
-   * This output is not an error.
+   * This output is an error, because it would keep on repeating to print out the blank output with the blank argument non stopping.
   
 
 
