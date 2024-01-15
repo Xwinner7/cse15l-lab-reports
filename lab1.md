@@ -21,18 +21,23 @@ Lab Report 1:
 1. `cd` with path to a directory
    * ![Image](cdWithDirectory.png)
    * The working directory when the command was run is `/home`.
-   * Using the `cd` command with a path `/home/lecture1` as an argument permits the swiitch from the current working directory `/home` to the given path `/home/lecture1`, the directory have been successfully changed with the terminal display in green with `~/lecture1`.
+   * Using the `cd` command with a path `/home/lecture1` as an argument permits the switch from the current working directory `/home` to the given path `/home/lecture1`, the directory have been successfully changed with the terminal display in green with `~/lecture1`.
    * This output is not an error.
 2. `ls` with path to a directory
    * ![Image](lsWithDirectory.png)
    * The working directory when the command was run is `/home/lecture1`.
-   * Using the `ls` command with a path `/home/lecture1` as an argument would list out all the name of the file and folder within the filesystem, and in this case from `/home/lecture1`, `Hello.class`, `Hello.java`, `messages` and `README` are the four file and folder within the `lecture1` folder that are being listed out.
+   * Using the `ls` command with a path `/home/lecture1` as an argument would list out all the name of the files and folders within the filesystem, and in this case from `/home/lecture1`, `Hello.class`, `Hello.java`, `messages` and `README` are the four files and folder within the `lecture1` folder that are being listed out.
    * This output is not an error.
 3. `cat` with path to a directory
    * ![Image](catWithDirectory.png)
    * The working directory when the command was run is `/home/lecture1`.
-   * Using the `cat` command with a path `/home/lecture1` 
-  
+   * Using the `cat` command with a path `/home/lecture1` would print out error as an output, since the command `cat` are used to print out the contents of the files that are given by the path, and in this case the folder within the filesystem `/home/lecture1` does not contain a file with content that it can be read and be printed.
+   * This output is an error, as the argument `/home/lecture1` is a directory instead of a file that can be read by the terminal.
+
+**examplex of using the command `cd` `ls` `cat` with a path to a file as an argument**
+1. `cd` with path to a file
+   * ![Image](
+
 
 
 
