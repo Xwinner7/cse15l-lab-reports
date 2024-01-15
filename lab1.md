@@ -4,7 +4,7 @@
 1. `cd`
    * ![Image](cd.png)
    * The working directory when the command was run is `/home`.
-   * Using the command with no argument in this case with `cd` means there's no directory it can be changed into. Hence in the filesystem it would only be `/home` as the given path does not have any files to be print out. Futher explains why the output is empty with nothing being printed out.
+   * Using the command with no argument in this case with `cd` means there's no directory it can be changed into. Hence in the filesystem it would only be `/home` as the given path does not have any files to be print out. Further explains why the output is empty with nothing being printed out.
    * The output is not an error.
 2. `ls`
    * ![Image](ls.png)
