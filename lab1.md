@@ -3,11 +3,15 @@ Lab Report 1:
 **examples of using the command `cd` `ls` `pwd` with no arguments**
 1. `cd`
    * ![Image](cd.png)
-   * The working directory was when the command was run is `/home`.
+   * The working directory when the command was run is `/home`.
    * Using the command with no argument in this case with `cd` means there's no directory it can be changed into. Hence in the filesystem it would only be `/home` as the given path does not have any files to print out. Futher explains why the output is empty with nothing being printed out.
    * The output is not an error.
 2. `ls`
-   *![Image]
+   * ![Image](ls.png)
+   * The working directory when the command was run is `/home`.
+   * Using the `ls` command with no argument means it would list the the files and folders of the given path, in this case with no given path would list the single folder within the filesystem `/home`, makes the output `lecture1`in blue and bolded font.
+   * This output is not an error.
+   
   
 
 
