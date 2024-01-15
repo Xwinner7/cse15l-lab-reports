@@ -11,7 +11,8 @@ Lab Report 1:
    * The working directory when the command was run is `/home`.
    * Using the `ls` command with no argument means it would list the the files and folders of the given path, in this case with no given path would list the single folder within the filesystem `/home`, makes the output `lecture1`in blue and bolded font.
    * This output is not an error.
-   
+3. `cat`
+   * ![Image](
   
 
 
