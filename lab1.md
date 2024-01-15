@@ -17,9 +17,21 @@ Lab Report 1:
    * Using the `cat` command with no argument would not print out any contents as there isn't any contents of any files that are given by the path, path are the argument, hence there's nothing for `cat` to read and print out as output.
    * This output is an error, because it would keep on repeating to print out the blank output with the blank argument non stopping.
 
-**examples of using the command `cd` `ls` `cat` with a path to a directory as an argument
+**examples of using the command `cd` `ls` `cat` with a path to a directory as an argument**
 1. `cd` with path to a directory
-   * ![Image](
+   * ![Image](cdWithDirectory.png)
+   * The working directory when the command was run is `/home`.
+   * Using the `cd` command with a path `/home/lecture1` as an argument permits the swiitch from the current working directory `/home` to the given path `/home/lecture1`, the directory have been successfully changed with the terminal display in green with `~/lecture1`.
+   * This output is not an error.
+2. `ls` with path to a directory
+   * ![Image](lsWithDirectory.png)
+   * The working directory when the command was run is `/home/lecture1`.
+   * Using the `ls` command with a path `/home/lecture1` as an argument would list out all the name of the file and folder within the filesystem, and in this case from `/home/lecture1`, `Hello.class`, `Hello.java`, `messages` and `README` are the four file and folder within the `lecture1` folder that are being listed out.
+   * This output is not an error.
+3. `cat` with path to a directory
+   * ![Image](catWithDirectory.png)
+   * The working directory when the command was run is `/home/lecture1`.
+   * Using the `cat` command with a path `/home/lecture1` 
   
 
 
