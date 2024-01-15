@@ -1,6 +1,6 @@
-Lab Report 1:
+# Lab Report 1:
 ---
-**examples of using the command `cd` `ls` `pwd` with no arguments**
+## **examples of using the command `cd` `ls` `pwd` with no arguments**
 1. `cd`
    * ![Image](cd.png)
    * The working directory when the command was run is `/home`.
@@ -17,7 +17,7 @@ Lab Report 1:
    * Using the `cat` command with no argument would not print out any contents as there isn't any contents of any files that are given by the path, path are the argument, hence there's nothing for `cat` to read and print out as output.
    * This output is an error, because it would keep on repeating to print out the blank output with the blank argument non stopping.
 
-**examples of using the command `cd` `ls` `cat` with a path to a directory as an argument**
+## **examples of using the command `cd` `ls` `cat` with a path to a directory as an argument**
 1. `cd` with path to a directory
    * ![Image](cdWithDirectory.png)
    * The working directory when the command was run is `/home`.
@@ -34,24 +34,19 @@ Lab Report 1:
    * Using the `cat` command with a path `/home/lecture1` would print out error as an output, since the command `cat` are used to print out the contents of the files that are given by the path, and in this case the folder within the filesystem `/home/lecture1` does not contain a file with content that it can be read and be printed.
    * This output is an error, as the argument `/home/lecture1` is a directory instead of a file that can be read by the terminal.
 
-**examplex of using the command `cd` `ls` `cat` with a path to a file as an argument**
+## **examplex of using the command `cd` `ls` `cat` with a path to a file as an argument**
 1. `cd` with path to a file
-   * ![Image](
-
-
-
-
-
-
-For each of the commands cd, ls, and cat, and using the workspace you created in this lab:
-
-Share an example of using the command with no arguments.
-Share an example of using the command with a path to a directory as an argument.
-Share an example of using the command with a path to a file as an argument.
-
-So that's 9 total examples (3 for each command). For each, include:
-
-A screenshot or Markdown code block showing the command and its output
-What the working directory was when the command was run
-A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
+   * ![Image](cdWithFile.png)
+   * The working directory when the command was run is `/home/lecture1/messages`.
+   * Using the `cd` command with a path `/home/lecture1/messages/en-us.txt` would give out as an error, since the `cd` command are used to switch the working driectory to the given path. And in this case with a file, nothing can be switch. Hence that the `cd` command would only be used with a path to a directory as an argument instead of with a path to a file as an argument.
+   * This output is an error as the path `/home/lecture1/messages/en-us.txt` is being stated as not a directory that can be used.
+2. `ls` with path to a file
+   * ![Image](lsWithFile.png)
+   * The working directory when the command was run is `/home/lecture1/messages`.
+   * Using the `ls` command with the path `/home/lecture1/messages/en-us.txt` would also gives out an error, this is because there are no other files and folders within the given path. Hence it would just print back out the given path as the list.
+   * This outpus is an error as the the path `/home/lecture1/messages/en-us.txt` does not contain any further files and folders within.
+3. `cat` with path to a file
+   * ![Image](catWithFile.png)
+   * The working directory when the command was run is `/home/lecture1/messages`.
+   * Using the `cat` command it would print out the contents of the file with the given path `/home/lecture1/messages/zh-cn.txt`, hence the output "你好世界" is being printed out from the file of `zh-cn.txt`.
+   * This output is not an error.
