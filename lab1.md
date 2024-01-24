@@ -15,7 +15,7 @@
    * ![Image](cat.png)
    * The working directory when the command was run is `/home`.
    * Using the `cat` command with no argument would not print out any contents as there isn't any contents of any files within the given path, path are the argument, hence there's nothing for `cat` to read and prints out as output.
-   * This output is an error, because it would keep on repeating to print out a blank output with the blank argument non-stopping.
+   * This output is not an error, although it would keep on repeating to print out a blank output with the blank argument non-stopping. It is actually the intended function of `cat`.
 
 ## **Examples of using the command `cd` `ls` `cat` with a path to a *directory* as an argument**
 1. `cd` with path to a *directory*
