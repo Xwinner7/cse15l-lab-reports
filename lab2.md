@@ -58,3 +58,10 @@ class ChatServer {
 3. After the request, the values of the relevant field `chatMessages` becomes `"jpolitz: Hello\nyash: How are you\n"`(while the space are represented with plus sign in this case).
 
 ## **Part 2**
+* The absolute path to the *private* key for my SSH key for logging into `ieng6`
+
+* The absolute path to the *public* key for my SSH key for logging into `ieng6`
+
+* A terminal interaction where I log into my `ieng6` account *without* being asked for a password
+  
+
