@@ -42,7 +42,7 @@ class ChatServer {
 }
 ```
 
-**Using the `/add-message` on the port that prints out the message**
+**Using the `/add-message` on the port `3456` that prints out the message**
 * `/add-message?s=Hello&user=jpolitz`
 * Link: https://0-0-0-0-3456-c408k781qjhacmbsq1fj2p9voo.us.edusercontent.com/add-message?s=Hello&user=jpolitz
 ![Image](messageHello.png)
