@@ -41,3 +41,4 @@ class ChatServer {
 }
 ```
 **Using the `/add-message` on the port that prints out the message**
+*![Image](messageHello.png)
