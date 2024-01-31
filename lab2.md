@@ -1,6 +1,6 @@
-** Lab Report 2:**
+# **Lab Report 2:**
 ---
-**##Part 1**
+## **Part 1**
 **Code of `ChatServer`**
 ```
 import java.io.IOException;
@@ -57,4 +57,4 @@ class ChatServer {
 2. The relevant argument are again `URI url`, but this time with the parameter of `url` being `/add-message?s=How are you&user=yash`. The value of the relevant field of the `Handler` class is the String `chatMessages` being added in information that now are `"jpolitz: Hello\n"` before the new request are being take in.
 3. After the request, the values of the relevant field `chatMessages` becomes `"jpolitz: Hello\nyash: How are you\n"`(while the space are represented with plus sign in this case).
 
-**##Part 2**
+## **Part 2**
