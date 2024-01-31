@@ -52,16 +52,19 @@ class ChatServer {
    
 * `/add-message?s=How are you&user=yash`
 * Link: https://0-0-0-0-3456-c408k781qjhacmbsq1fj2p9voo.us.edusercontent.com/add-message?s=How are you&user=yash
-!![Image](messageHow.png)
+![Image](messageHow.png)
 1. The method that are bing called is the `handleRequest` again, going through the same information as the first message.
 2. The relevant argument are again `URI url`, but this time with the parameter of `url` being `/add-message?s=How are you&user=yash`. The value of the relevant field of the `Handler` class is the String `chatMessages` being added in information that now are `"jpolitz: Hello\n"` before the new request are being take in.
 3. After the request, the values of the relevant field `chatMessages` becomes `"jpolitz: Hello\nyash: How are you\n"`(while the space are represented with plus sign in this case).
 
 ## **Part 2**
 * The absolute path to the *private* key for my SSH key for logging into `ieng6`
-
+![Image](privateKey.png)
 * The absolute path to the *public* key for my SSH key for logging into `ieng6`
-
+![Image](publicKey.png)
 * A terminal interaction where I log into my `ieng6` account *without* being asked for a password
-  
+![Image](interaction.png)
+
+## **Part 3**
+
 
