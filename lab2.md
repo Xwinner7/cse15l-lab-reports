@@ -66,5 +66,6 @@ class ChatServer {
 ![Image](interaction.png)
 
 ## **Part 3**
+*Something that I learned from labs through week 2 and 3 are the new information regarding the URL and server. Things such as using the `ssh` command to connect to the remote server on edstem. Where the connection made through `ssh` are more secure. And also creating our own web server through the implementation of Java. With these, now it permits me to build on my own URL and server. These was something that I don't know before, despite I have been using it throughout daily life. But the process of building and tseting them out was interesting as I was able to see them successfully launched.
 
 
