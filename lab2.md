@@ -48,7 +48,7 @@ class ChatServer {
 2. The relevant argument to the method are the `URI url`, with the `/add-message?s=Hello&user=jpolitz` as the parameter of `url`, the request information.The value of the relevent field of `Handler` class implements `URLHandler` is the `chatMessages` being empty and have nothing as initialization.
 3. After the request, the value of the relevant field `chatMessages` gets update to `"jpolitz: Hello\n"` with a newline character.
 * `/add-message?s=How are you&user=yash`
-*Link: https://0-0-0-0-3456-c408k781qjhacmbsq1fj2p9voo.us.edusercontent.com/add-message?s=How are you&user=yash
+* Link: https://0-0-0-0-3456-c408k781qjhacmbsq1fj2p9voo.us.edusercontent.com/add-message?s=How are you&user=yash
 !![Image](messageHow.png)
 1. The method that are bing called is the `handleRequest` again, going through the same information as the first message.
 2. The relevant argument are again `URI url`, but this time with the parameter of `url` being `/add-message?s=How are you&user=yash`. The value of the relevant field of the `Handler` class is the String `chatMessages` being added in information that now are `"jpolitz: Hello\n"` before the new request are being take in.
