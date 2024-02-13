@@ -17,7 +17,7 @@ From the `ArrayTests.java`
 ```java
 public class ArrayTests {
 	@Test 
-	public void testReverseInPlace() {
+	public void testReverseInPlace2() {
     int[] input1 = {1, 2};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{2, 1}, input1);
@@ -34,4 +34,6 @@ public class ArrayTests {
 	}
 ```
 * The symptom, as the output of running the tests:
+* The array {1, 2} are not being reversed correctly as {2, 1}
+
 
