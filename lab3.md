@@ -34,7 +34,7 @@ public class ArrayTests {
 ```
 * The symptom, as the output of running the tests:
   - The array {1, 2} are not being reversed correctly as {2, 1}
-!Image
+![Image](symptom.png)
 * The bug, as the before-and-after code change required to fix it:
   - Before the code change:
   ```java
