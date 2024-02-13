@@ -69,11 +69,11 @@ Informations about the command `grep`
      grep -c "it" ./technical/biomed/cc300.txt
      119
   	 ```
-   Example 2)
+  Example 2)
   	```java
      grep -c "the" ./technical/plos/pmed.0010008.txt
      124
-  	```
+  ```
  	- `grep -c` counts how many times a specific word appears in the file, and gives out the total count of the word instead of lines of where the word is at. This is useful as it can count out how many times the word shows up in the file without showing the actual line that containes the word.
        
 **Option 2:**
@@ -101,20 +101,20 @@ Informations about the command `grep`
 * -o, --only-matching: prints only the matching part of the lines that are searching for
   
   Example 1)
-  ```java
+  	```java
      grep -o "ones" ./technical/911report/chapter-7.txt
      ones
      ones
      ones
      ones
      ones
-     ```
+   ```
   Example 2)
-  ```java
+  	```java
      grep -o "before" ./technical/biomed/1471-2121-2-6.txt
      before
      before
-     ```
+   ```
  	- `grep -o` is useful as it picks out the specified information or word from the large text file full of words and sentences, by printing out only the specified word or phrase that are matched in the text file.
 
 **Option 4:**
