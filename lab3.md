@@ -64,7 +64,8 @@ Information about the command `grep`
 * -c, --count: counts the matching lines for each input file or directories 
   1) ```java
      grep -c "it" ./technical/biomed/cc300.txt
-	119 ```
+     119
+  	 ```
   2)
 
 
