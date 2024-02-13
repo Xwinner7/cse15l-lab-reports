@@ -69,11 +69,11 @@ Informations about the command `grep`
      grep -c "it" ./technical/biomed/cc300.txt
      119
   	 ```
-  Example 2)
-  ```java
+   Example 2)
+  	```java
      grep -c "the" ./technical/plos/pmed.0010008.txt
      124
-  ```
+  	```
  	- `grep -c` counts how many times a specific word appears in the file, and gives out the total count of the word instead of lines of where the word is at. This is useful as it can count out how many times the word shows up in the file without showing the actual line that containes the word.
        
 **Option 2:**
