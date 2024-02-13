@@ -35,5 +35,26 @@ public class ArrayTests {
 ```
 * The symptom, as the output of running the tests:
 * The array {1, 2} are not being reversed correctly as {2, 1}
+!Image
+* The bug, as the before-and-after code change required to fix it:
+  - Before the code change:
+  ```java
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+  ```
+  - After the code change:
+  ```java
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+  ```
+* Briefly describe why the fix addresses the issue. 
 
 
