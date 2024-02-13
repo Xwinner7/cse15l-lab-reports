@@ -56,6 +56,7 @@ public class ArrayTests {
   ```
 * Why the fix addresses the issue?
   - By introducing a variable `temp`, it stores the value of `arr[i]` inside before it gets overwritten. And as for the original code, since the original values in the array are not being saved, when going over the iteration, all the element are being overwritten and becomes the same. But by saving and stores the element's original value into `temp`, the swap of the values happens correctly with the rescue of the original values of the array.
+    
 ---
 ## **Part 2 - Researching Commands**
 Informations about the command `grep`
