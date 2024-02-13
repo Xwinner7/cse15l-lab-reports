@@ -59,6 +59,12 @@ public class ArrayTests {
   - By introducing a variable `temp`, it stores the value of `arr[i]` inside before it gets overwritten. And as for the original code, since the original values in the array are not being saved, when going over the iteration, all the element are being overwritten and becomes the same. But by saving and stores the element's original value into `temp`, the swap of the values happens correctly with the rescue of the original values of the array.
 ---
 ## **Part 2 - Researching Commands**
-
+Information about the command `grep`
+**Option 1:**
+* -c, --count: counts the matching lines for each input file or directories 
+  1) ```java
+     grep -c "it" ./technical/biomed/cc300.txt
+	119 ```
+  2)
 
 
