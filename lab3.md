@@ -101,20 +101,20 @@ Informations about the command `grep`
 * -o, --only-matching: prints only the matching part of the lines that are searching for
   
   Example 1)
-  ```java
+  	```java
      grep -o "ones" ./technical/911report/chapter-7.txt
      ones
      ones
      ones
      ones
      ones
-  ```
+   	```
   Example 2)
-  ```java
+  	```java
      grep -o "before" ./technical/biomed/1471-2121-2-6.txt
      before
      before
- ```
+   	```
  	- `grep -o` is useful as it picks out the specified information or word from the large text file full of words and sentences, by printing out only the specified word or phrase that are matched in the text file.
 
 **Option 4:**
