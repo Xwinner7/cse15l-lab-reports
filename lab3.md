@@ -1,10 +1,9 @@
 # **Lab Report 3:**
 ---
 ## **Part 1 - Bugs**
-The method from the `ArrayExamples.java` that the test cases are being tested on are:
+The method from the `ArrayExamples.java` that the bugs are on:
 ```java
 public class ArrayExamples {
-
   // Changes the input array to be in reversed order
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -12,7 +11,7 @@ public class ArrayExamples {
     }
   }
 ```
-From the `ArrayTests.java`
+From the `ArrayTests.java`:
 * A failure-inducing input for this buggy program, as a JUnit test and any associated code:
 ```java
 public class ArrayTests {
@@ -34,7 +33,7 @@ public class ArrayTests {
 	}
 ```
 * The symptom, as the output of running the tests:
-* The array {1, 2} are not being reversed correctly as {2, 1}
+  - The array {1, 2} are not being reversed correctly as {2, 1}
 !Image
 * The bug, as the before-and-after code change required to fix it:
   - Before the code change:
@@ -59,7 +58,7 @@ public class ArrayTests {
   - By introducing a variable `temp`, it stores the value of `arr[i]` inside before it gets overwritten. And as for the original code, since the original values in the array are not being saved, when going over the iteration, all the element are being overwritten and becomes the same. But by saving and stores the element's original value into `temp`, the swap of the values happens correctly with the rescue of the original values of the array.
 ---
 ## **Part 2 - Researching Commands**
-Information about the command `grep`
+Informations about the command `grep`
 
 **Option 1:**
 * -c, --count: counts the matching lines for each input file or directories
