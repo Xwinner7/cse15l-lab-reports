@@ -2,7 +2,7 @@
 ---
 ## **Part 1 - Bugs**
 The method from the `ArrayExamples.java` that the test cases are being tested on are:
-```
+```java
 public class ArrayExamples {
 
   // Changes the input array to be in reversed order
