@@ -82,7 +82,7 @@ Information about the command `grep`
      technical/biomed/1471-2164-3-4.txt
      technical/biomed/1471-2334-3-13.txt
      ```
-  2) ```
+  2) ```java
      grep -r -l "marine biologist" technical
      technical/plos/journal.pbio.0030127.txt
      technical/plos/journal.pbio.0020113.txt
@@ -109,7 +109,7 @@ Information about the command `grep`
 
 **Option 4**
 * -v, --invert-match: it selects lines that do not match any of the specified patterns
-  1) ```bash
+  1) ```java
      grep -v "the" ./technical/plos/pmed.0020281.txt
      whistleblowing—as discussed, in part, in 
         courageous men and women [1, 2] For that reason, those of us who congregated in Washington,
@@ -124,7 +124,7 @@ Information about the command `grep`
         Ralph Waldo Emerson, American essayist and philosopher (1803–1882), commented about
         this is to have succeeded [as a whistleblower].”
      ```
-  2) ```console
+  2) ```java
      grep -v "in" ./technical/government/Media/Advocate_for_Poor.txt
      New York Daily News
      Tuesday, May 7, 2002
