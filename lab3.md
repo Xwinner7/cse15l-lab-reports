@@ -66,6 +66,92 @@ Information about the command `grep`
      grep -c "it" ./technical/biomed/cc300.txt
      119
   	 ```
-  2)
+  2) ```java
+     grep -c "the" ./technical/plos/pmed.0010008.txt
+     124
+     ```
+     - It counts how many times a specific word appears in the file, and gives out the total count of the word instead of lines of where the word is at. This is useful as it can count out how many times the word shows up in the file without showing the actual line that containes the word.
+**Option 2**
+* -l, --files-with-matches: outprints the name of the file that contain the specified word
+  1) ```java
+     grep -r -l "microbiologist" technical
+     technical/plos/journal.pbio.0030056.txt
+     technical/biomed/1471-2180-2-22.txt
+     technical/biomed/1471-2458-2-3.txt
+     technical/biomed/1471-2164-3-4.txt
+     technical/biomed/1471-2334-3-13.txt
+     ```
+  2) ```
+     grep -r -l "marine biologist" technical
+     technical/plos/journal.pbio.0030127.txt
+     technical/plos/journal.pbio.0020113.txt
+     ```
+     - The `-r` that means "recursive" before the `-l` means it would allow the `grep` command to search to not only the files in the specified path but all the dictories and files.
+     - As it lists the name of the files quickly with the indicated specified word, it makes it efficient in searching for the files that are interested in. Without showing the actual lines that contains the word, it shows the file name that contains the content of interest.
 
+**Option 3**
+* -o, --only-matching: prints only the matching part of the lines that are searching for
+  1) ```java
+     grep -o "ones" ./technical/911report/chapter-7.txt
+     ones
+     ones
+     ones
+     ones
+     ones
+     ```
+  2) ```java
+     grep -o "before" ./technical/biomed/1471-2121-2-6.txt
+     before
+     before
+     ```
+     - `grep -o` is useful as it picks out the specified information or word from the large text file, printing out only the specified line or phrase that are in search and are matched.
+
+**Option 4**
+* -v, --invert-match: it selects lines that do not match any of the specified patterns
+  1) ```java
+     grep -v "the" ./technical/plos/pmed.0020281.txt
+     whistleblowing—as discussed, in part, in 
+        courageous men and women [1, 2] For that reason, those of us who congregated in Washington,
+        research.
+        misrepresented pharmaceuticals; clinical research trial results that have been sequestered
+        pharmaceuticals that are detailed to physicians, not to save lives or necessarily improve
+        corporations and political interests whose operations we occasionally challenge. Our goal
+        assault of unprecedented odds against being heard put forth by that sum of political power,
+        expediency, and money.
+        A whistleblower's success depends upon competent and articulate media. The debate to
+        making—cannot proceed or flourish without it.
+        Ralph Waldo Emerson, American essayist and philosopher (1803–1882), commented about
+        this is to have succeeded [as a whistleblower].”
+     ```
+  2) ```java
+     grep -v "in" ./technical/government/Media/Advocate_for_Poor.txt
+     New York Daily News
+     Tuesday, May 7, 2002
+     Advocate for Poor Has Own Obstacles
+     Greg Wilson
+     of legal work he'd always dreamed of, but after less than a year of
+     Nearly a year ago, Mazzariello, a former assistant district
+     of his East New York Legal Services Corp. on New Lots Ave.
+     got some help from high places early on.
+     "I picked up the phone and called Rudy Giuliani on his radio
+     all the paperwork. We got the nonprofit status from the feds. We
+     state status that would allow it to survive on charitable
+     donations.
+     "This is what I want to do - to give back to the community,"
+     said Mazzariello, who worked under Brooklyn District Attorney
+     of Education's chief prosecutor.
+     tenant ownership program, Mazzariello and partner Joe Guzzo learned
+     room makeover and other modest improvements.
+     Another Bidder
+     Then, last week, Mazzariello got bad news from the department. A
+     Department spokeswoman Carol Abrams said homeownership comes
+     "We give priority to the residential tenants because we're a
+     units above the storefront legal practice, plans to buy the
+     the commercial space a must. That could amount to several times as
+     Preservation and Development Department.
+     to" the department.
+     ```
+     - `grep -v` is useful as it permits to filter out information that does not contain the specified word or phrases from the text file. It shows the lines that doesn't contain the specified word, which helps to sort out the helpful information that are needed.
+
+**All descriptions of the command line are source from the command `man grep`**
 
