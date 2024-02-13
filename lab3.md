@@ -60,6 +60,7 @@ public class ArrayTests {
 ---
 ## **Part 2 - Researching Commands**
 Information about the command `grep`
+
 **Option 1:**
 * -c, --count: counts the matching lines for each input file or directories 
   1) ```java
