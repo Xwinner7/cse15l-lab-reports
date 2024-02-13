@@ -62,7 +62,7 @@ class ChatServer {
 * Where the public keys are stored in are the path to private key also, `/Users/xiuwen/.ssh/id_rsa.pub`
 ![Image](PrivavteKey.png)
 * The absolute path to the *public* key for my SSH key for logging into `ieng6`
-* With the `ls` command ans argument `~/.ssh/authorized_keys`, it prints out the absolute path for the public key `/home/linux/ieng6/oce/9f/xiz189/.ssh/authorized_keys`
+* With the `ls` command and argument `~/.ssh/authorized_keys`, it prints out the absolute path to the public key `/home/linux/ieng6/oce/9f/xiz189/.ssh/authorized_keys`
 ![Image](publicKey.png)
 * A terminal interaction where I log into my `ieng6` account *without* being asked for a password
 ![Image](interaction.png)
