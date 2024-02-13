@@ -73,8 +73,8 @@ Information about the command `grep`
   ```java
      grep -c "the" ./technical/plos/pmed.0010008.txt
      124
-     ```
-  - `grep -c` counts how many times a specific word appears in the file, and gives out the total count of the word instead of lines of where the word is at. This is useful as it can count out how many times the word shows up in the file without showing the actual line that containes the word.
+  ```
+ - `grep -c` counts how many times a specific word appears in the file, and gives out the total count of the word instead of lines of where the word is at. This is useful as it can count out how many times the word shows up in the file without showing the actual line that containes the word.
        
 **Option 2:**
 * -l, --files-with-matches: outprints the name of the file that contain the specified word
@@ -89,11 +89,11 @@ Information about the command `grep`
      technical/biomed/1471-2334-3-13.txt
 ```
   Example 2)
-	```java
+```java
      grep -r -l "marine biologist" technical
      technical/plos/journal.pbio.0030127.txt
      technical/plos/journal.pbio.0020113.txt
-	```
+```
   - The `-r` that means "recursive" before the `-l` means it would allow the `grep` command to search to not only the files in the specified path but all the dictories and files.
   - `grep -l` lists out the name of the files quickly with the indicated specified word contained inside the file, it makes it efficient in searching for the files that are interested in. Without showing the actual lines that contains the word, it shows the file name that contains the content of interest.
 
