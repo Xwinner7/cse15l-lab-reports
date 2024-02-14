@@ -2,7 +2,7 @@
 ---
 ## **Part 1**
 **Code of `ChatServer`**
-```
+```java
 import java.io.IOException;
 import java.net.URI;
 
