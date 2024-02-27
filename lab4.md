@@ -1,6 +1,19 @@
 # **Lab Report 4: Vim**
 ---
-## **Steps 1-3 are setups!**
+**Steps 1 - Setup Delete any existing forks of the repository you have on your account**
+- Remove the existing fork with command `rm -rf lab7<enter>`
+- ![Image](removelab7.png)
+
+**Step 2 - Setup Fork the repository**
+- Fork the lab7 repository
+- ![Image](lab7.png)
+
+**Step 3 - The real deal Start the timer!**
+- Would start the timer to time the progress
+
+## **Steps1-3 are setups!!**
+
+
 ## **Step 4 - Log into `ieng6`**
 - Key pressed: `ssh xiz189@ieng6.ucsd.edu<enter>`
 - It permits me to log into the `ieng6` server without asking for a password, this is because I have previously generated a ssh key that gets stores into my public ssh key on the server. Which allows me to save up the time that are needed for typing in the password, and log in immediately.
