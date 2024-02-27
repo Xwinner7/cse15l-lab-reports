@@ -3,7 +3,7 @@
 ## **Step 4 - Log into `ieng6`**
 - Key pressed: `ssh xiz189@ieng6.ucsd.edu<enter>`
 - It permits me to log into the `ieng6` server without asking for a password, this is because I have previously generated a ssh key that gets stores into my public ssh key on the server. Which allows me to save up the time that are needed for typing in the password, and log in immediately.
-- 
+- ![Image](ieng6.png)
 
 ## **Step 5 - Clone your fork of the repository from your Github account (using the SSH URL)**
 
