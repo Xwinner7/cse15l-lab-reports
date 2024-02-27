@@ -34,14 +34,14 @@
 2. Key pressed: `bash test.sh<enter>`
 - This command permit the script to run the JUnit tests.
 - ![Image](testlab7.png)
-  - Where it indicate 1 test failed.
+  - Where it indicate 1 test failed out of the total of 2
 
 ## **Step 7 - Edit the code file to fix the failing test**
 1. Key pressed: `vim ListExamples.java<enter>` or it could be `vim Li<tab>.java<enter>`
 - This command would open the designated file in vim, the second way to write this command with the `<tab>` fills in the file name to be `ListExamples`, saved a few second from typing.
 - ![Image](vimlab7.png)
 2. Key pressed to find and fix the buggy code: `/index1<enter>`, `n`(9 times), `l`(5 times), `r`, `2`
-- This command would search and leads directly to the word that first appeared with the name `index1` in the file. Afterward, press the `n` key for it to jump to the next search of `index1` and finally stops after pressing it 9 times to where the buggy code is. Next, the `l` key are being pressed 5 times to get to the position of where the number '1' is at the variable name, which are the error to fix. Then press the `r` key to be in insert mode and selected the current index, follow by pressing the `2` key to change the variable name from `index1` to be `index2`
+- This command would search and leads directly to the word that first appeared with the name `index1` in the file. Afterward, press the `n` key for it to jump to the next search of `index1` and finally stops after pressing it 9 times to where the buggy code is. Next, the `l` key are being pressed 5 times to get to the position of where the number '1' is at the variable name, which are the error to fix. Then press the `r` key to be in insert mode and selected the current index, follow by pressing the `2` key to change the variable name from `index1` to be `index2`.
 - ![Image](bugfixlab7.png)
 3. Key pressed: `<esc>`
 - This command would exit out of the insert mode after the bug fix and be back into normal mode.
@@ -53,7 +53,7 @@
 - Key pressed: `bash test.sh<enter>`
 - This command just as before, the script of the JUnit tests gets run.
 - ![Image](testpasslab7.png)
-  - All the test are passed after the fix of the bug in code through vim
+  - All the tests are passed after the fix of the bug in code through vim
 
 ## **Step 9 - Commit and push the resulting change to my Github account**
 - Key pressed: `git add ListExamples.java<enter>`, `git commit -m "Bug fixed"<enter>`, `git push<enter>`
