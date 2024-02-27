@@ -11,14 +11,13 @@
 **Step 3 - The real deal Start the timer!**
 - Would start the timer to time the progress
 
-## **Steps1-3 are setups!!**
+## **Steps 1-3 are setups!!**
 
 
 ## **Step 4 - Log into `ieng6`**
 - Key pressed: `ssh xiz189@ieng6.ucsd.edu<enter>`
 - It permits me to log into the `ieng6` server without asking for a password, this is because I have previously generated a ssh key that gets stores into my public ssh key on the server. Which allows me to save up the time that are needed for typing in the password, and log in immediately.
 - ![Image](ieng6.png)
-
 
 ## **Step 5 - Clone your fork of the repository from your Github account (using the SSH URL)**
 - Key pressed: `git clone git@github.com:Xwinner7/lab7.git<enter>`
@@ -28,7 +27,6 @@
 - Which permits me to enter into the directory of the cloned repository, with the directory named `lab7`.
 - ![Image](cdlab7.png)
 
-
 ## **Step 6 - Run the tests, demonstrating that they fail**
 - Key pressed: `ls<enter>`
 - Which allows me to see what contents are contained within the `lab7` directory
@@ -37,7 +35,6 @@
 - This key runs the script of the JUnit tests
 - ![Image](testlab7.png)
   - Where it indicates 1 test failed.
-
 
 ## **Step 7 - Edit the code file to fix the failing test**
 - Key pressed: `vim ListExamples.java<enter>` or it could be `vim Li<tab>.java<enter>`
@@ -52,13 +49,11 @@
 - This command allows the change that we made to be saved and exit out of vim.
 - ![Image](exitvimlab7.png)
 
-  
 ## **Step 8 - Run the tests, demonstrating that they now succeed**
 - Key pressed: `bash test.sh<enter>`
 - This command just as before, the script of the Junit tests gets run.
 - ![Image](testpasslab7.png)
   - All the test are passed after the fix of the bug in the code through vim
-
 
 ## **Step 9 - Commit and push the resulting change to your Github account (you can pick any commit message!)**
 - Key pressed: `git add ListExamples.java<enter>`, `git commit -m "Bug fixed"<enter>`, `git push<enter>`
