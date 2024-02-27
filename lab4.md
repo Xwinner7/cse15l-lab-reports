@@ -1,5 +1,6 @@
 # **Lab Report 4: Vim**
 ---
+## **Steps 1-3 are setups!**
 ## **Step 4 - Log into `ieng6`**
 - Key pressed: `ssh xiz189@ieng6.ucsd.edu<enter>`
 - It permits me to log into the `ieng6` server without asking for a password, this is because I have previously generated a ssh key that gets stores into my public ssh key on the server. Which allows me to save up the time that are needed for typing in the password, and log in immediately.
@@ -33,18 +34,20 @@
 - This command would search and leads me directly to the word that first appeared that are named as `index1` in the file. And press the `n` key for it to jump to the next search of `index1` and finally stops after pressing it 9 times to where the buggy code is. Next, the `l` key are being pressed 5 times to get to position of the number 1 in the variable name, which is the error to fix. Then press the `r` key to be in insert mode and selected the current index, follow by pressing the `2` key to change the variable name from `index1` to be `index2`
 - ![Image](bugfixlab7.png)
 - Key pressed: `<esc>`
-- This command would exit out of the insert mode
+- This command would exit out of the insert mode and be back into normal mode.
 - Key pressed: `:wq<enter>`
 - This command allows the change that we made to be saved and exit out of vim.
 - ![Image](exitvimlab7.png)
 
   
 ## **Step 8 - Run the tests, demonstrating that they now succeed**
+- Key pressed: `bash test.sh<enter>`
+- This command just as before, the script of the Junit tests gets run.
+- ![Image](testpasslab7.png)
+  - All the test are passed after the fix of the bug in the code through vim
 
 
 ## **Step 9 - Commit and push the resulting change to your Github account (you can pick any commit message!)**
-
-
-
-
-take a screenshot, and write down exactly which keys you pressed to get to that step. For special characters like <enter> or <tab>, write them in angle brackets with code formatting. Then, summarize the commands you ran and what the effect of those keypresses were.
+- Key pressed: `git add ListExamples.java<enter>`, `git commit -m "Bug fixed"<enter>`, `git push<enter>`
+- The file `ListExamples.java` gets add with the command `git add`, by the command `git commit` the change is commit with the message "Bug fixed", and lastly the `git push` command push the changes to the remote repository, GitHub.
+- ![Image](gitlab7.png)
