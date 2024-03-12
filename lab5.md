@@ -4,6 +4,7 @@
 **Original Post by Student:**
 
 Hello there!
+
 I'm having trouble with my codes where I'm trying to reverse a list of strings. Instead of fully reversing the list, it doesn't seem to reverse correctly for the inputs, and I'm not sure what's going wrong. Here's the problematic part of my code with the input and output:
 - run error
 ![Image](error.png)
@@ -14,6 +15,7 @@ With the original input being `{"apple", "banana", "orange", "watermelon"}`, I i
 **Response from TA:**
 
 Hi,
+
 Glad that you were able to catch the exception. The approach you've taken in `reverseList` seems logical, but may lead to unexpected reults due to the way you're modifying the list while iterating over it. Modifying a list during iteration can be tricky and lead to unpredictable behavior. To help with the fix of the bug, could you add print statements within your `reverseList` method to see the output of the list at each iteration of your loop? This which will give out a clearer picture of how the list is being reversed at each step. Hope that helps!
 
 **Follow-Up by Student:**
