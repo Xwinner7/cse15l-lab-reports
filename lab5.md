@@ -22,8 +22,10 @@ Glad that you were able to catch the exception. The approach you've taken in `re
 
 Based on the advices, I added print statements for my `reverseList` method, which further leads me to the bug. Where the list is being modified as I iterate over it, which messes up the indices and leads to incorrect placement of the elements of the list. To fix it, I have updated my `reverseList` method to this below:
 ![Image](correctMethod.png)
+
 Now it would correctly reverses the list, and prints the correct output:
 ![Image](correctOutput.png) 
+
 Thank you so much for the help!!
 
 **File and Directory Structure**
