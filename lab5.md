@@ -5,8 +5,8 @@
 
 Hello there!
 I'm having trouble with my codes where I'm trying to reverse a list of strings. Instead of fully reversing the list, it doesn't seem to reverse correctly for the inputs, and I'm not sure what's going wrong. Here's the problematic part of my code with the input and output:
-!pictures - run error
-!pictures - error method
+![Image](error.png) - run error
+![Image](errorMethod.png) - error method
 With the original input being `{"apple", "banana", "orange", "watermelon"}`, I initally thought the bug is how I'm swapping the elements or the loop, but it outputs an `UnsupportedOperationException`. Which I resolved using a new `ArrayList`, however it still didn't output the correct reversed inputs. Any ideas on how I could fix this bug?
 
 **Response from TA:**
@@ -17,21 +17,21 @@ Glad that you were able to catch the exception. The approach you've taken in `re
 **Follow-Up by Student:**
 
 Based on the advices, I added print statements for my `reverseList` method, which further leads me to the bug. Where the list is being modified as I iterate over it, which messes up the indices and leads to incorrect placement of the elements of the list. To fix it, I have updated my `reverseList` method to this below:
-!picture - new corrected method
+![Image](correctMethod.png) - new corrected method
 Now it would correctly reverses the list, and prints the correct output:
-!picture - correct output
+![Image](correctOutput.png) - correct output
 Thank you so much for the help!!
 
 **File and Directory Structure**
-- `Main.java` that contains the program 
+- `Main.java` that contains the program
 - `Tesh.sh` that compiles and runs the java file `Main.java`
-!picture
+  ![Image](files.png)
 
 **Contents of the Files**
 - `Main.java`
-!picture
+  ![Image](Main.png)
 - `Test.sh`
-!picture
+  ![Image](test.png)
 
 **Command to Trigger the Bug**
 - `bash Test.sh`
