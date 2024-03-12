@@ -60,6 +60,8 @@ to
         list.set(i, temp.get(i));
     }
 ```
+Which produced the corrected method that runs output successfully:
+![Image](Main.png)
 
 ## **Part 2 - Reflection**
 Before taking this course, shell scripting is something that is new to me. I would be typing the same commands over and over again in the terminal, which was really exhausting and time consuming. But now, after taking this class, I have learned how to save these repetitive commands in a shell script, making it much easier to run them all at once. This new approach has also saved a ton of time for the coding process, since I could bundle common commands into these scripts. Also, I have realized the powerful usage of `Vim`, which permits me to edit the code without needing a mouse. And mastering in those `Vim` commands would make a huge difference in how quickly changes and edits can be made right of the keyboard. This course has broadened my knowledge and skills in coding and computing, earns me some valuable techniques that boosted my productivity.
