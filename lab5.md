@@ -9,7 +9,7 @@ I'm having trouble with my codes where I'm trying to reverse a list of strings. 
 - run error
 ![Image](error.png)
 - error method
-![Image](errorMethod.png)
+![Image](Main.png)
 With the original input being `{"apple", "banana", "orange", "watermelon"}`, I initally thought the bug is how I'm swapping the elements or the loop, but it outputs an `UnsupportedOperationException`. Which I resolved using a new `ArrayList`, however it still didn't output the correct reversed inputs. Any ideas on how I could fix this bug?
 
 **Response from TA:**
