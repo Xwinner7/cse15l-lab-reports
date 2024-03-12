@@ -65,7 +65,7 @@ to
         list.set(i, temp.get(i));
     }
 ```
-Which produced the corrected method that runs output successfully:
+- Which produced the corrected method that runs output successfully:
 ![Image](Main.png)
 
 ## **Part 2 - Reflection**
