@@ -1,9 +1,9 @@
 # **Lab Report 5 - Putting it All Together**
 ---
 ## **Part 1 - Debugging Scenario**
+
 **Original Post by Student:**
 ---
-
 Hello there!
 
 I'm having trouble with my codes where I'm trying to reverse a list of strings. Instead of fully reversing the list, it doesn't seem to reverse correctly for the inputs, and I'm not sure what's going wrong. Here's the problematic part of my code with the input and output:
