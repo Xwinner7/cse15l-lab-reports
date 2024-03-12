@@ -33,7 +33,7 @@ Thank you so much for the help!!
 ---
 Inside of the `lab5` folder, I created the files below:
 - `Main.java` that contains the program
-- `Tesh.sh` that compiles and runs the java file `Main.java`
+- `Test.sh` that compiles and runs the java file `Main.java`
   ![Image](files.png)
 
 **Contents of the Files**
